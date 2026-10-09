@@ -1,0 +1,38 @@
+Student Name: Digne Kabayiza
+
+Problem:
+Every weekday morning I get ready and leave home for class. I need to make sure I have everything and arrive on time.
+
+Input:
+Class timetable for the day, my backpack, laptop, charger, notebook, phone, and a charged phone battery.
+
+Output:
+I leave home on time with everything I need and arrive at class before it starts.
+
+Edge Case Handled:
+My phone or laptop battery is low and there is a power cut at home.
+
+Pseudocode:
+START
+Check the timetable to see what time class starts
+Wake up and wash my face and brush my teeth
+Get dressed
+Pack notebook, laptop, charger and phone into my backpack
+Check the battery level of my phone and laptop
+IF battery is below 50 percent
+    Plug in the device and wait 15 minutes
+    IF there is a power cut
+        Take a power bank instead
+    ELSE
+        Unplug the device once it has charged
+    END IF
+ELSE
+    Continue to the next step
+END IF
+Check that the backpack has everything on my list
+Lock the door and leave home
+Walk or take transport to class
+END
+
+Why this is clear enough to follow:
+Each step is a single action in the order I do it, so another person can follow it without guessing. The checks use clear conditions, such as battery below 50 percent, instead of vague words like "low". The IF/ELSE decisions show what to do in each case, including a power cut. The process starts with checking the timetable and ends with leaving for class, so it is clear where it begins and finishes.
