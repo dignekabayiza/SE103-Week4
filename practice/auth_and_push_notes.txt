@@ -1,0 +1,16 @@
+Student Name: Digne Kabayiza
+GitHub Username: YOUR-USERNAME
+
+Authentication method I used: PAT
+
+Why I chose this method:
+A personal access token works with the HTTPS link I cloned from GitHub, so setup was quick. It also replaces my password, which GitHub no longer accepts for Git operations.
+
+One security habit I must follow with this method:
+I must never share my token or commit it into a repository. If it leaks, I should revoke it on GitHub immediately and create a new one.
+
+Difference between a commit and a push:
+A commit saves a snapshot of my staged changes in my local repository. It happens only on my computer and needs no internet. A push uploads my local commits to the remote repository on GitHub. Until I push, my work is not visible online or backed up.
+
+My repository URL:
+https://github.com/YOUR-USERNAME/SE103-Week4
