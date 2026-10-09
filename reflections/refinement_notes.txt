@@ -1,0 +1,10 @@
+Student Name: Digne Kabayiza
+
+Which phrases were too vague:
+The phrase "Check them" did not say what was being checked or against what rule. The phrase "Find who failed" did not say what counts as failing or how the results are kept. "Show result" did not say what to show when nobody failed.
+
+How I made each vague part specific:
+I replaced "Get student scores" with a clear input, a list of student scores. I turned "Check them" into a loop that looks at each score one at a time. I replaced "Find who failed" with a decision using the exact rule score < 50, and I stored each failing score in a list called failing_scores. I turned "Show result" into an output step that prints the failing scores, or the message "No one failed" if the list is empty.
+
+Why refinement matters before coding:
+Clear pseudocode removes guessing, so the code can be written one step at a time. It also exposes missing cases, like when no one failed, before they become bugs. Fixing a vague idea on paper is much faster than fixing it after the code is written.
