@@ -1,0 +1,22 @@
+Student Name: Digne Kabayiza
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. The list is not empty, so continue. Set found = false.
+2. Name "Ama": "Ama" equals "Kofi" is false. found stays false.
+3. Name "Kofi": "Kofi" equals "Kofi" is true. found becomes true.
+4. Name "Yaw": "Yaw" equals "Kofi" is false. found stays true.
+5. The end of the list is reached. found is true, so output "Found".
+Result: Found
+
+Trace 2 - target "Efua":
+1. The list is not empty, so continue. Set found = false.
+2. Name "Ama": "Ama" equals "Efua" is false. found stays false.
+3. Name "Kofi": "Kofi" equals "Efua" is false. found stays false.
+4. Name "Yaw": "Yaw" equals "Efua" is false. found stays false.
+5. The end of the list is reached. found is false, so output "Not found".
+Result: Not found
+
+Empty list input: []
+Empty list result:
+Error: list is empty
