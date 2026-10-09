@@ -1,0 +1,16 @@
+Student Name: Digne Kabayiza
+Sample Input: [4, 15, 10, 22, 8]
+
+Step-by-step trace:
+1. The list is not empty, so continue. Set count = 0.
+2. Number 4: 4 > 10 is false. count stays 0.
+3. Number 15: 15 > 10 is true. count becomes 1.
+4. Number 10: 10 > 10 is false. count stays 1.
+5. Number 22: 22 > 10 is true. count becomes 2.
+6. Number 8: 8 > 10 is false. count stays 2.
+7. The end of the list is reached. Output count.
+
+Final output: 2
+
+Empty list input: []
+Empty list result: Error: list is empty
