@@ -1,0 +1,15 @@
+Student Name: Digne Kabayiza
+GitHub Username: dignekabayiza
+Repository: SE103-Week4
+Repository URL: https://github.com/dignekabayiza/SE103-Week4
+
+What a pull request asks teammates to do:
+A pull request asks teammates to review my changes before they are merged into main. They can read the code, leave comments, and approve or request fixes.
+
+Why branches and pull requests are used together:
+A branch keeps my work separate from main, and a pull request is the way to propose merging that work. Together they let a team check changes first, so main stays stable.
+
+One thing that confused me in this project and how I solved it:
+The checker kept reporting my reflection file as missing even though it was on my add-reflection branch. I compared the commit ID in the checker with the one on GitHub and saw it was reading main, not my branch. I fixed it by fast-forwarding main to add-reflection and pushing. After that, the checker passed.
+
+All required files are on main: Yes
