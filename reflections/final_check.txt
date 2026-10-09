@@ -3,13 +3,13 @@ GitHub Username: dignekabayiza
 Repository: SE103-Week4
 Repository URL: https://github.com/dignekabayiza/SE103-Week4
 
-What a pull request asks teammates to do:
-A pull request asks teammates to review my changes before they are merged into main. They can read the code, leave comments, and approve or request fixes.
+What I understand better about algorithms now:
+An algorithm is a clear list of steps that solves one specific problem. I learned that every algorithm needs a defined input, a defined output, and ordered steps in between. I also learned that edge cases, like an empty list, must be handled on purpose and not left to chance. Loops and decisions are the two building blocks I used most, for example when counting numbers greater than 10 and searching for a name. Writing pseudocode first helped me plan before thinking about any programming language.
 
-Why branches and pull requests are used together:
-A branch keeps my work separate from main, and a pull request is the way to propose merging that work. Together they let a team check changes first, so main stays stable.
+How tracing changed my confidence:
+Tracing let me follow my algorithm one step at a time with real values, so I could see exactly how the count changed. When I traced the list [4, 15, 10, 22, 8], I confirmed that 10 is not counted because it is not greater than 10. Seeing the correct result of 2 gave me proof that the logic works. I now feel more confident that my pseudocode will behave correctly before I write any code.
 
-One thing that confused me in this project and how I solved it:
-The checker kept reporting my reflection file as missing even though it was on my add-reflection branch. I compared the commit ID in the checker with the one on GitHub and saw it was reading main, not my branch. I fixed it by fast-forwarding main to add-reflection and pushing. After that, the checker passed.
+One pseudocode habit I will keep:
+I will always handle the empty or missing input case at the start of an algorithm. I will also use exact conditions like score < 50 instead of vague words like "check".
 
 All required files are on main: Yes
